@@ -1,31 +1,5 @@
-openplotter-myapp (2.1.0-beta) buster; urgency=medium
+openplotter-iob (4.1.0-beta) bookworm; urgency=medium
 
-  * Add feature: show pending actions in openplotter-settings app
-  * Update translations
+  * beta
 
- -- Sailoog <info@sailoog.com>  Sat, 08 Aug 2020 13:05:58 +0200
-
-openplotter-myapp (2.0.4-beta) buster; urgency=medium
-
-  * Fix error
-  * Update translations
-
- -- Sailoog <info@sailoog.com>  Tue, 10 Mar 2020 20:16:53 +0100
-
-openplotter-myapp (2.0.3-beta) buster; urgency=medium
-
-  * Fix error
-
- -- Sailoog <info@sailoog.com>  Thu, 05 Mar 2020 16:23:24 +0100
-
-openplotter-myapp (2.0.2-beta) buster; urgency=medium
-
-  * Make external apps independent
-
- -- Sailoog <info@sailoog.com>  Thu, 05 Mar 2020 12:50:12 +0100
-
-openplotter-myapp (2.0.1-beta) buster; urgency=medium
-
-  * Initial release
-
- -- Sailoog <info@sailoog.com>  Sun, 11 Aug 2019 19:20:18 +0200
+ -- Sailoog <info@sailoog.com>  Wed, 29 Jan 2025 19:23:27 +0100

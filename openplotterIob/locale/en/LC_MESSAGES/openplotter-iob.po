@@ -1,0 +1,245 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: openplotter-iob\n"
+"POT-Creation-Date: 2025-02-19 20:41+0100\n"
+"PO-Revision-Date: 2025-02-19 20:49+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: actions.py:31
+msgid "MQTT: publish a message in topic mqtt/data/#"
+msgstr ""
+
+#: actions.py:31
+msgid "Replace # with a path and xxx with a text or number."
+msgstr ""
+
+#: data/openplotter-iob.desktop:3
+msgid "IoB"
+msgstr ""
+
+#: data/openplotter-iob.desktop:5
+msgid "openplotter-iob"
+msgstr ""
+
+#: iobPostInstall.py:33
+msgid "Installing python packages..."
+msgstr ""
+
+#: iobPostInstall.py:37 iobPostInstall.py:46 iobPostInstall.py:52
+#: iobPreUninstall.py:35
+msgid "DONE"
+msgstr ""
+
+#: iobPostInstall.py:38 iobPostInstall.py:47 iobPostInstall.py:53
+#: iobPreUninstall.py:36 iobPreUninstall.py:41
+msgid "FAILED: "
+msgstr ""
+
+#: iobPostInstall.py:40
+msgid "Creating services..."
+msgstr ""
+
+#: iobPostInstall.py:49
+msgid "Setting version..."
+msgstr ""
+
+#: iobPreUninstall.py:29
+msgid "Removing services..."
+msgstr ""
+
+#: iobPreUninstall.py:38
+msgid "Removing version..."
+msgstr ""
+
+#: openplotterIob.py:44
+msgid "Help"
+msgstr ""
+
+#: openplotterIob.py:47
+msgid "Settings"
+msgstr ""
+
+#: openplotterIob.py:119
+msgid ""
+"Send \"all\" to topic \"mqtt/command/getData\" and you will receive a json "
+"message in topic \"mqtt/data\" with all the data for the boat at that "
+"moment. If you send a Signal K key instead of \"all\", such as \"environment/"
+"inside/temperature\", you will receive a message with only that data in "
+"topic \"mqtt/data/environment/inside/temperature\": \"{\"value\":293.45,"
+"\"$source\": \"OpenPlotter.I2C.BME680/688\", \"timestamp\": "
+"\"2025-01-31T18:55:24.124Z\"}\". If you are only interested in the value of "
+"that Signal K key, send \"environment/inside/temperature/value\" and you "
+"will receive \"293.45\" in topic \"mqtt/data/environment/inside/temperature/"
+"value\""
+msgstr ""
+
+#: openplotterIob.py:120
+msgid ""
+"Send \"all\" to topic \"mqtt/command/getCommand\" and you will receive the "
+"list of all defined commands in topic \"mqtt/data/command\": [\"getData\","
+"\"getCommand\"...]. If you send a command instead of \"all\", such as "
+"\"getData\", you will receive the description of that command in topic "
+"\"mqtt/data/command\""
+msgstr ""
+
+#: openplotterIob.py:148
+msgid "Port"
+msgstr ""
+
+#: openplotterIob.py:150
+msgid "Username"
+msgstr ""
+
+#: openplotterIob.py:152
+msgid "Password"
+msgstr ""
+
+#: openplotterIob.py:154
+msgid "Create an account"
+msgstr ""
+
+#: openplotterIob.py:156
+msgid "Connect at startup"
+msgstr ""
+
+#: openplotterIob.py:157
+msgid "Test connection and save"
+msgstr ""
+
+#: openplotterIob.py:161
+msgid "Command"
+msgstr ""
+
+#: openplotterIob.py:162
+msgid "Description"
+msgstr ""
+
+#: openplotterIob.py:163
+msgid "State"
+msgstr ""
+
+#: openplotterIob.py:164
+msgid "Method"
+msgstr ""
+
+#: openplotterIob.py:170
+msgid "Add"
+msgstr ""
+
+#: openplotterIob.py:173
+msgid "Edit"
+msgstr ""
+
+#: openplotterIob.py:175
+msgid "Delete"
+msgstr ""
+
+#: openplotterIob.py:244
+msgid "This command cannot be deleted."
+msgstr ""
+
+#: openplotterIob.py:244 openplotterIob.py:434 openplotterIob.py:438
+msgid "Info"
+msgstr ""
+
+#: openplotterIob.py:272
+msgid "Port must be an integer"
+msgstr ""
+
+#: openplotterIob.py:279
+msgid "Testing connection..."
+msgstr ""
+
+#: openplotterIob.py:283
+msgid "Connection successful"
+msgstr ""
+
+#: openplotterIob.py:292
+msgid "wrong password"
+msgstr ""
+
+#: openplotterIob.py:293
+msgid "wrong username or password"
+msgstr ""
+
+#: openplotterIob.py:294
+msgid "error code"
+msgstr ""
+
+#: openplotterIob.py:295
+msgid "Connection failed:"
+msgstr ""
+
+#: openplotterIob.py:309
+msgid "Connection failed: "
+msgstr ""
+
+#: openplotterIob.py:365
+msgid "Editing MQTT command"
+msgstr ""
+
+#: openplotterIob.py:366
+msgid "Adding MQTT command"
+msgstr ""
+
+#: openplotterIob.py:379
+msgid "Command:"
+msgstr ""
+
+#: openplotterIob.py:383
+msgid "Description:"
+msgstr ""
+
+#: openplotterIob.py:387
+msgid "State:"
+msgstr ""
+
+#: openplotterIob.py:392
+msgid "Method:"
+msgstr ""
+
+#: openplotterIob.py:434
+msgid "This command cannot be edited."
+msgstr ""
+
+#: openplotterIob.py:438
+msgid "This command already exists."
+msgstr ""
+
+#: startup.py:45
+msgid "Checking IoB..."
+msgstr ""
+
+#: startup.py:69
+msgid "Error connecting to MQTT server"
+msgstr ""
+
+#: startup.py:75 startup.py:89 startup.py:104
+msgid "service running"
+msgstr ""
+
+#: startup.py:79 startup.py:93 startup.py:108
+msgid "service not running"
+msgstr ""
+
+#: startup.py:83
+msgid "MQTT server connected"
+msgstr ""
+
+#: startup.py:98
+msgid "Connect at startup disabled"
+msgstr ""
+
+#: startup.py:113
+msgid "Error connecting to MQTT server:"
+msgstr ""

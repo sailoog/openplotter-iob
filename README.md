@@ -1,6 +1,6 @@
-## openplotter-myapp
+## openplotter-iob
 
-This is a template to help create apps for OpenPlotter. 
+OpenPlotter app app to manage your boat remotely
 
 ### Installing
 
@@ -8,20 +8,22 @@ Install [openplotter-settings](https://github.com/openplotter/openplotter-settin
 
 #### For production
 
-Download the latest [openplotter-myapp deb package](https://cloudsmith.io/~openplotter/repos/openplotter-external/packages/) and install it:
-
-`sudo dpkg -i openplotter-myapp_x.x.x-xxx_all.deb` 
+Install IoB from openplotter-settings app.
 
 #### For development
 
+Install openplotter-iob dependencies:
+
+`sudo apt install openplotter-settings openplotter-signalk-installer`
+
 Clone the repository:
 
-`git clone https://github.com/openplotter/openplotter-myapp`
+`git clone https://github.com/openplotter/openplotter-iob`
 
-Create the package:
+Make your changes and create the package:
 
 ```
-cd openplotter-myapp
+cd openplotter-iob
 dpkg-buildpackage -b
 ```
 
@@ -29,18 +31,18 @@ Install the package:
 
 ```
 cd ..
-sudo dpkg -i openplotter-myapp_x.x.x-xxx_all.deb
+sudo dpkg -i openplotter-iob_x.x.x-xxx_all.deb
 ```
 
-Run post installation script:
+Run post-installation script:
 
-`sudo myappPostInstall`
+`sudo iobPostInstall`
 
 Run:
 
-`openplotter-myapp`
+`openplotter-iob`
 
-Make your changes and repeat packaging and installation steps to test. Pull request your changes to github and we will check and add them to the next version of the [Debian package](https://cloudsmith.io/~openplotter/repos/openplotter-external/packages/).
+Pull request your changes to github and we will check and add them to the next version of the [Debian package](https://cloudsmith.io/~openplotter/repos/openplotter/packages/).
 
 ### Documentation
 
